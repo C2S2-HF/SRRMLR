@@ -1,0 +1,13 @@
+Package: SRRMLR
+Type: Package
+Title: Simultaneous Dimension Reduction and Variable Selection for Multinomial Logistic Regression
+Version: 1.0
+Date: 2022-01-20
+Author: Mingyu Gao
+Maintainer: Mingyu Gao <1307842879@qq.com>
+Description: Package contains srrmlr functions in various situations and data generation function.
+License: GPL (>= 2)
+Depends: MASS
+Imports: Rcpp (>= 1.0.6)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.1.2

@@ -1,0 +1,77 @@
+[
+    {
+        "file": "/home/mingyu/Desktop/SRRMLR/src_test/SRRMLR/src/functions.h",
+        "file_last_write": 1650926825.0,
+        "definitions": [
+            {
+                "usr": "c:@F@compute_error#1$@N@arma@S@Mat>#d#1S0_#1S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "compute_error(const arma::dmat, const arma::dmat, const arma::dmat)",
+                "file": "/home/mingyu/Desktop/SRRMLR/src_test/SRRMLR/src/functions.h",
+                "line": 8,
+                "column": 15
+            },
+            {
+                "usr": "c:@SA@SRR",
+                "kind": 3,
+                "parent_name": "",
+                "name": "",
+                "file": "/home/mingyu/Desktop/SRRMLR/src_test/SRRMLR/src/functions.h",
+                "line": 16,
+                "column": 9
+            },
+            {
+                "usr": "c:@T@SRR",
+                "kind": 8,
+                "parent_name": "",
+                "name": "SRR",
+                "file": "/home/mingyu/Desktop/SRRMLR/src_test/SRRMLR/src/functions.h",
+                "line": 21,
+                "column": 2
+            },
+            {
+                "usr": "c:@F@srrmlr_in#1$@N@arma@S@Mat>#d#1S0_#1S0_#1S0_#1i#1i#1d#1d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "srrmlr_in(const arma::dmat, const arma::dmat, const arma::dmat, const arma::dmat, const arma::uword, const arma::uword, const double, const double)",
+                "file": "/home/mingyu/Desktop/SRRMLR/src_test/SRRMLR/src/functions.h",
+                "line": 24,
+                "column": 5
+            }
+        ]
+    },
+    {
+        "file": "/home/mingyu/Desktop/SRRMLR/src_test/SRRMLR/src/srrmlr.cpp",
+        "file_last_write": 1650424410.0,
+        "definitions": [
+            {
+                "usr": "c:@F@srrmlr_one#&$@N@arma@S@Mat>#d#S0_#i#i#d#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "srrmlr_one(arma::dmat &, arma::dmat &, arma::uword, arma::uword, double, double)",
+                "file": "/home/mingyu/Desktop/SRRMLR/src_test/SRRMLR/src/srrmlr.cpp",
+                "line": 20,
+                "column": 12
+            },
+            {
+                "usr": "c:@F@srrmlr_simu#&$@N@arma@S@Mat>#d#S0_#S0_#S0_#S0_#S0_#&$@N@arma@S@Col>#i#S2_#S0_#i#i#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "srrmlr_simu(arma::dmat &, arma::dmat &, arma::dmat &, arma::dmat &, arma::dmat &, arma::dmat &, arma::uvec &, arma::uvec &, arma::dmat &, arma::uword, arma::uword)",
+                "file": "/home/mingyu/Desktop/SRRMLR/src_test/SRRMLR/src/srrmlr.cpp",
+                "line": 109,
+                "column": 12
+            },
+            {
+                "usr": "c:@F@srrmlr_real#&$@N@arma@S@Mat>#d#S0_#S0_#S0_#&$@N@arma@S@Col>#i#S2_#i#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "srrmlr_real(arma::dmat &, arma::dmat &, arma::dmat &, arma::dmat &, arma::uvec &, arma::uvec &, arma::uword)",
+                "file": "/home/mingyu/Desktop/SRRMLR/src_test/SRRMLR/src/srrmlr.cpp",
+                "line": 185,
+                "column": 12
+            }
+        ]
+    }
+]

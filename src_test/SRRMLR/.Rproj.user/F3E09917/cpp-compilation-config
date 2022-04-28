@@ -1,0 +1,28 @@
+{
+    "args": [
+        "-I/usr/lib/llvm-13/lib/clang/13.0.0/include",
+        "-I/usr/include/c++/11",
+        "-I/usr/include/x86_64-linux-gnu/c++/11",
+        "-I/usr/include/c++/11/backward",
+        "-I/usr/lib/gcc/x86_64-linux-gnu/11/include",
+        "-I/usr/local/include",
+        "-I/usr/include/x86_64-linux-gnu",
+        "-I/usr/include",
+        "-I/usr/lib/R/site-library/Rcpp/include",
+        "-I/home/mingyu/R/x86_64-pc-linux-gnu-library/4.1/RcppArmadillo/include",
+        "-std=gnu++11",
+        "-I/usr/share/R/include",
+        "-DNDEBUG",
+        "-fopenmp",
+        "-fpic",
+        "-ffile-prefix-map=/build/r-base-xTqnu7/r-base-4.1.3=.",
+        "-flto=auto",
+        "-ffat-lto-objects",
+        "-fstack-protector-strong",
+        "-D_FORTIFY_SOURCE=2"
+    ],
+    "pch": "RcppArmadillo",
+    "is_cpp": true,
+    "hash": "165025221816502522181650252218",
+    "compiler": "2969769579323605132"
+}
