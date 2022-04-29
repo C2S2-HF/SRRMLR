@@ -10,7 +10,7 @@ f <- function(Y, X, C) {
 
 get_table <- function(obj, n.rep){
   set.bg <- set.mul <- set.vglm <- NULL
-  tab.hat <- array(0, dim = c(n.rep, 3, 4))
+  tab.hat <- array(0, dim = c(n.rep, 3, 3))
   for(i in 1:n.rep){
     tab <- obj[[i]]
     tab[2:3,2] <- 0
@@ -31,7 +31,7 @@ get_table <- function(obj, n.rep){
   est.ave[2:3,2] <- NA
   est.var <- rbind(var.bg, var.mul)
   est.var[2:3,2] <- NA
-  colnames(est.ave) <- colnames(est.var) <- c("Pred", "r.hat", "s.hat", "time")
+  colnames(est.ave) <- colnames(est.var) <- c("Pred", "r.hat", "s.hat")
   rownames(est.ave) <- rownames(est.var) <- c("SRRMLR", "mlasso", "NNET")
   list(rea=est.ave, rev=est.var)
 }
