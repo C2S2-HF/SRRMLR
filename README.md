@@ -14,7 +14,7 @@ This repository contains all the necesaary codes for duplicating the results in 
     
 - __src_test__ folder contains the source files for implementing the SRRMLR algorithm. 
 
-    * The source filefolder [SRRMLR](SRRMLR). It is only used when one want to modify the SRRMLR algorithm.
+    * The source filefolder __SRRMLR__. It is only used when one want to modify the SRRMLR algorithm.
       
     * After downloading it, you need to run the following code in R to install it.
 
