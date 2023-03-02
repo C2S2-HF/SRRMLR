@@ -1,17 +1,21 @@
 # SRRMLR
 
-### This repository contains realdata, simulation and R package of SRRMLR.
+This repository contains all the necesaary codes for duplicating the results in the article ``Simultaneous Dimension Reduction and Variable Selection for Multinomial Logistic Regression'', authored by Canhong Wen, Zhenduo Li, Ruipeng Dong, Yijin Ni, and Wenliang Pan.
 
-HAM's datasets implementation, trail plots are in the ./HAM folder.
 
-MNIST's datasets implementation are in the ./MNIST folder.
+## Codes
 
-Several methods' simulation, convergence analysis, active set analysis are in the ./simulation folder.
+- __simulation__ folder contains the code used for numerical experiments.
 
-SRRMLR functions written by c++ and the corresponding R package are in the ./src_test folder.
+- __MNIST__ folder contains the code used for real data analysis in Section 5.
 
-Some warm-start trials are in the ./warm_start folder.
+- __HAM__ folder contains the code used for HAM10000 data analysis in Appendix C of the supplementary material.
 
-#### Contact Author: Mingyu Gao <1307842879@qq.com>
+- __src_test__ folder contains the source file for implementing the SRRMLR algorithm. After downloading it, you need to run the following code in R to install it.
+
+      install.packages("Your_download_path/AMIAS_1.0.3.tar.gz", repos = NULL)
+
+- __warm_start__ folder provides some warm-start trials.
+
 
 
